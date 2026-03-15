@@ -1,0 +1,40 @@
+Elena Vasquez
+elena.vasquez@email.com | (415) 555-0192 | San Francisco, CA
+LinkedIn: linkedin.com/in/elenavasquez | GitHub: github.com/evasquez
+
+SUMMARY
+Senior Machine Learning Engineer with 8+ years of experience designing and deploying production ML systems. Specialized in deep learning, NLP, and large-scale model training pipelines. Proven track record of delivering high-impact models that drive business outcomes.
+
+EXPERIENCE
+
+Senior Machine Learning Engineer
+Anthropic, San Francisco, CA
+March 2021 - Present
+- Designed and implemented transformer-based NLP models for text classification and named entity recognition, improving F1 scores by 12%
+- Built end-to-end ML pipelines using Python, PyTorch, and Docker for model training, evaluation, and deployment
+- Led a team of 4 engineers to develop a real-time inference service handling 50k requests per minute
+- Implemented A/B testing framework for model comparison using SQL and internal analytics tools
+
+Machine Learning Engineer
+Meta, Menlo Park, CA
+June 2018 - February 2021
+- Developed deep learning models for content recommendation using TensorFlow and PyTorch
+- Optimized model training infrastructure reducing training time by 40% through distributed computing with Horovod
+- Built feature engineering pipelines processing 10TB+ daily using PySpark and SQL
+- Deployed models to production using Docker containers and internal orchestration tools
+
+Data Scientist
+IBM, San Jose, CA
+January 2015 - May 2018
+- Built machine learning models for customer churn prediction using scikit-learn and XGBoost
+- Developed NLP pipelines for document classification using spaCy and NLTK
+- Created dashboards and reports for stakeholders using Python and SQL
+- Collaborated with engineering teams to deploy models via REST APIs using Flask
+
+EDUCATION
+
+M.S. in Computer Science, Stanford University, September 2013 - June 2015
+B.S. in Mathematics, University of California, Berkeley, September 2009 - June 2013
+
+SKILLS
+Python, PyTorch, TensorFlow, scikit-learn, SQL, Docker, Git, Kubernetes, spaCy, Hugging Face, PySpark, XGBoost, NumPy, pandas, deep learning, NLP, machine learning, distributed computing, REST APIs, Linux

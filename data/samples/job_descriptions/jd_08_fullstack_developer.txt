@@ -1,0 +1,28 @@
+Fullstack Developer
+
+Location: Boston, MA (Hybrid)
+Employment Type: Full-time
+
+About the Company
+TaskForge builds workflow automation software for operations teams at mid-size companies. Our platform combines a drag-and-drop frontend with a robust backend engine to automate repetitive business processes. We are hiring a Fullstack Developer to work across the entire stack.
+
+Requirements
+- 3+ years of experience in fullstack web development
+- Strong proficiency in JavaScript for both client and server applications
+- Hands-on experience building user interfaces with React including component design and state management
+- Backend development experience with Node.js and Express or similar frameworks
+- Database experience with PostgreSQL or MongoDB including schema design and query optimization
+- Familiarity with version control workflows using Git
+- Understanding of authentication and authorization patterns
+- Ability to work independently and take ownership of features end to end
+
+Nice to Have
+- Experience with TypeScript for type-safe frontend and backend development
+- Familiarity with Docker for local development and deployment
+- Experience with AWS services such as S3, Lambda, or ECS
+- Knowledge of WebSocket or real-time communication patterns
+
+Education
+- B.S. in Computer Science, Software Engineering, or a related field required
+
+Compensation: $115,000 - $155,000 base + equity

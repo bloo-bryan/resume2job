@@ -1,0 +1,40 @@
+Kevin Nakamura
+kevin.nakamura@email.com | (408) 555-0374 | San Jose, CA
+LinkedIn: linkedin.com/in/kevinnakamura | GitHub: github.com/knakamura
+
+SUMMARY
+Software Engineer with 3 years of experience building backend services and APIs. Solid foundation in object-oriented design, testing, and agile development. Quick learner who thrives in collaborative environments and takes ownership of end-to-end feature delivery.
+
+EXPERIENCE
+
+Software Engineer
+Cisco Systems, San Jose, CA
+January 2024 - Present
+- Developed backend microservices in Python using FastAPI and SQLAlchemy
+- Designed and maintained PostgreSQL databases with Alembic migrations
+- Built automated test suites using pytest with 90%+ code coverage
+- Deployed services using Docker and Kubernetes on internal cloud platform
+- Participated in on-call rotation and resolved production incidents
+
+Software Engineer
+PayPal, San Jose, CA
+March 2022 - December 2023
+- Built REST API endpoints in Java using Spring Boot for payment processing features
+- Wrote unit and integration tests using JUnit and Mockito
+- Implemented logging and monitoring using ELK Stack and Grafana
+- Collaborated with frontend engineers to define API contracts using OpenAPI specifications
+- Used Git for version control and participated in daily code reviews
+
+Software Engineering Intern
+Adobe, San Jose, CA
+June 2021 - August 2021
+- Developed internal tooling using Python and Flask for content management workflows
+- Created automated test scripts and contributed to CI/CD pipeline improvements
+- Documented API endpoints and wrote technical guides for onboarding
+
+EDUCATION
+
+B.S. in Computer Science, San Jose State University, August 2018 - May 2022
+
+SKILLS
+Python, Java, Git, Docker, PostgreSQL, REST APIs, FastAPI, Spring Boot, SQL, Kubernetes, pytest, JUnit, Linux, SQLAlchemy, Alembic, CI/CD, agile, ELK Stack, Grafana, OpenAPI

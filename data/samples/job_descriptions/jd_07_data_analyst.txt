@@ -1,0 +1,27 @@
+Data Analyst
+
+Location: Portland, OR (Remote-friendly)
+Employment Type: Full-time
+
+About the Company
+Metric Health is a healthcare analytics startup helping hospital systems reduce readmission rates through data-driven insights. Our small but growing team works directly with clinical stakeholders to turn raw data into actionable dashboards and reports.
+
+Requirements
+- 1+ years of experience in a data analyst or business intelligence role
+- Strong SQL skills for querying and transforming data across multiple tables and databases
+- Advanced Excel proficiency including pivot tables, VLOOKUP, and data modeling
+- Experience with data visualization tools and best practices for presenting insights to stakeholders
+- Attention to detail and ability to validate data quality
+- Strong communication skills for translating analytical findings into business recommendations
+
+Nice to Have
+- Programming experience in Python for data manipulation and automation
+- Experience with Tableau for building interactive dashboards
+- Familiarity with Power BI for reporting and self-service analytics
+- Knowledge of basic statistical methods
+- Experience working with healthcare or other regulated data
+
+Education
+- B.A. or B.S. in Mathematics, Economics, Business, Statistics, or a related field required
+
+Compensation: $65,000 - $90,000 base + bonus

@@ -1,0 +1,29 @@
+Cloud Architect
+
+Location: Washington, DC (Remote)
+Employment Type: Full-time
+
+About the Company
+Stratum Cloud Consulting helps Fortune 500 companies migrate and modernize their infrastructure on public cloud platforms. Our architects design multi-region, high-availability solutions for clients in finance, healthcare, and government. We are looking for a Cloud Architect to lead complex migration and greenfield projects.
+
+Requirements
+- 8+ years of experience in software engineering, infrastructure, or cloud architecture
+- Deep expertise with AWS or Azure including compute, storage, networking, and identity services
+- Strong experience with Terraform for infrastructure provisioning and lifecycle management
+- Production experience with Kubernetes for running containerized workloads at scale
+- Proven ability in system design including high availability, fault tolerance, and disaster recovery
+- Experience designing and building distributed systems with clear understanding of CAP theorem tradeoffs
+- Excellent client-facing communication and technical leadership skills
+- Experience creating architecture decision records, runbooks, and technical documentation
+
+Nice to Have
+- Experience with GCP in a multi-cloud or hybrid-cloud context
+- Scripting and automation skills in Python
+- Knowledge of cloud security best practices including IAM policies, encryption, and compliance frameworks
+- Relevant certifications such as AWS Solutions Architect Professional or Azure Solutions Architect Expert
+
+Education
+- B.S. in Computer Science, Information Systems, or a related field required
+- M.S. in Computer Science or related field preferred
+
+Compensation: $190,000 - $260,000 base + bonus

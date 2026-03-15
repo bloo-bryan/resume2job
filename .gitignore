@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+dist/
+*.egg-info/
+.ruff_cache/
+.env
+models/
+!models/.gitkeep
+.mypy_cache/
+.pytest_cache/
+*.so
+.claude/
+CLAUDE.md
+PRD.md

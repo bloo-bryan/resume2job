@@ -1,0 +1,27 @@
+Data Scientist
+
+Location: New York, NY (Remote-friendly)
+Employment Type: Full-time
+
+About the Company
+DataBridge Analytics helps mid-market retailers optimize pricing and inventory through predictive analytics. Our team of data scientists and engineers works closely with clients to deliver actionable insights from complex datasets.
+
+Requirements
+- 3+ years of experience in a data science or analytics role
+- Proficiency in Python for data analysis and modeling
+- Experience with R for statistical computing
+- Strong SQL skills for querying relational databases
+- Solid foundation in statistics including hypothesis testing, regression, and experimental design
+- Experience building and validating machine learning models for classification, regression, or clustering
+- Ability to communicate findings to non-technical stakeholders through clear visualizations and reports
+
+Nice to Have
+- Experience with deep learning frameworks and neural network architectures
+- Familiarity with Spark for large-scale data processing
+- Knowledge of A/B testing methodologies
+- Experience with cloud-based ML platforms
+
+Education
+- B.S. in Statistics, Mathematics, Computer Science, Economics, or a related quantitative field required
+
+Compensation: $120,000 - $160,000 base + bonus

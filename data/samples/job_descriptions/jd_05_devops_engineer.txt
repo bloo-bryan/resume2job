@@ -1,0 +1,28 @@
+DevOps Engineer
+
+Location: Denver, CO (Remote)
+Employment Type: Full-time
+
+About the Company
+InfraCore provides managed Kubernetes platforms for SaaS companies. Our clients rely on us for zero-downtime deployments and infrastructure automation. We are hiring a DevOps Engineer to strengthen our platform engineering team.
+
+Requirements
+- 4+ years of experience in DevOps, SRE, or infrastructure engineering
+- Deep hands-on experience with AWS services including EC2, S3, IAM, VPC, and CloudWatch
+- Strong experience with Docker for building and managing container images
+- Production experience with Kubernetes for deploying and scaling workloads
+- Proficiency with Terraform for infrastructure as code and state management
+- Experience designing and maintaining CI/CD pipelines using tools such as GitHub Actions, Jenkins, or GitLab CI
+- Strong Linux systems administration skills including networking, process management, and shell scripting
+- Understanding of monitoring and observability tools such as Prometheus, Grafana, or Datadog
+
+Nice to Have
+- Experience with Azure or GCP in addition to AWS
+- Familiarity with Google Cloud Platform services
+- Scripting experience in Python for automation and tooling
+- Knowledge of service mesh technologies such as Istio or Linkerd
+
+Education
+- B.S. in Computer Science, Information Technology, or a related field required
+
+Compensation: $140,000 - $185,000 base + equity

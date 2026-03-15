@@ -1,0 +1,41 @@
+Robert Kim
+robert.kim@email.com | (503) 555-0419 | Portland, OR
+LinkedIn: linkedin.com/in/robertkim
+
+SUMMARY
+Senior DevOps Engineer with 6 years of experience building and maintaining cloud infrastructure and CI/CD pipelines. Expert in infrastructure as code, container orchestration, and site reliability engineering. Committed to automating everything and reducing operational overhead.
+
+EXPERIENCE
+
+Senior DevOps Engineer
+Nike, Portland, OR
+February 2022 - Present
+- Designed and managed AWS infrastructure across 3 regions using Terraform and CloudFormation
+- Built Kubernetes clusters on EKS serving 200+ microservices with automated scaling policies
+- Implemented CI/CD pipelines using Jenkins and GitHub Actions, reducing deployment time from 2 hours to 15 minutes
+- Established monitoring and observability stack using Prometheus, Grafana, and ELK
+- Authored runbooks and led incident response for production outages
+
+DevOps Engineer
+Intel, Hillsboro, OR
+March 2019 - January 2022
+- Managed Linux server fleets across on-premise and AWS cloud environments
+- Containerized legacy applications using Docker and migrated to Kubernetes
+- Built automated infrastructure provisioning using Terraform and Ansible
+- Implemented secrets management using HashiCorp Vault
+- Wrote Python scripts for log analysis, alerting, and operational automation
+
+Systems Administrator
+Puppet, Portland, OR
+July 2017 - February 2019
+- Administered Linux servers and maintained configuration management using Puppet
+- Set up monitoring and alerting using Nagios and custom Python scripts
+- Managed DNS, load balancers, and network security configurations on AWS
+- Automated routine tasks using Bash and Python scripting
+
+EDUCATION
+
+B.S. in Information Technology, Oregon State University, September 2013 - June 2017
+
+SKILLS
+AWS, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions, Linux, Python, Bash, Ansible, Prometheus, Grafana, ELK Stack, CloudFormation, HashiCorp Vault, CI/CD, Nginx, networking, site reliability engineering

@@ -1,0 +1,27 @@
+NLP Engineer
+
+Location: San Francisco, CA (Hybrid)
+Employment Type: Full-time
+
+About the Company
+Lexica AI builds document intelligence products that help legal and compliance teams extract structured information from unstructured text. Our models process contracts, regulatory filings, and correspondence at enterprise scale. We are seeking an NLP Engineer to advance our core language understanding capabilities.
+
+Requirements
+- 3+ years of experience working on NLP problems in a research or engineering role
+- Strong proficiency in Python for model development and data processing
+- Deep understanding of NLP techniques including tokenization, text classification, named entity recognition, and information extraction
+- Hands-on experience with deep learning for language tasks including transformer architectures
+- Production experience with PyTorch or TensorFlow for training and fine-tuning models
+- Experience with Hugging Face Transformers library for model selection, fine-tuning, and inference
+- Familiarity with evaluation metrics for NLP tasks and rigorous experiment design
+
+Nice to Have
+- Experience working with large language models including prompt engineering and fine-tuning
+- Knowledge of retrieval-augmented generation (RAG) pipelines and vector databases
+- Experience with model deployment and serving in production environments
+- Contributions to NLP research or open-source NLP projects
+
+Education
+- M.S. or Ph.D. in Computer Science, Computational Linguistics, or a related field required
+
+Compensation: $170,000 - $230,000 base + equity

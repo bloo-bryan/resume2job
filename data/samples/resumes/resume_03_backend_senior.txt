@@ -1,0 +1,41 @@
+James Okafor
+james.okafor@email.com | (206) 555-1034 | Seattle, WA
+LinkedIn: linkedin.com/in/jamesokafor | GitHub: github.com/jokafor
+
+SUMMARY
+Senior Backend Engineer with 7 years of experience building scalable distributed systems and microservices. Deep expertise in API design, database optimization, and cloud infrastructure. Focused on reliability, performance, and clean architecture.
+
+EXPERIENCE
+
+Senior Backend Engineer
+Amazon Web Services, Seattle, WA
+April 2021 - Present
+- Architected and implemented microservices handling 100k+ requests per second using Java and Spring Boot
+- Designed PostgreSQL schemas and optimized query performance, reducing p99 latency by 60%
+- Built event-driven systems using Amazon SQS, SNS, and Lambda for asynchronous processing
+- Mentored junior engineers and led design reviews for critical system components
+- Deployed services using Docker, Kubernetes, and AWS ECS with CI/CD pipelines
+
+Backend Engineer
+Stripe, Seattle, WA
+September 2018 - March 2021
+- Developed payment processing APIs in Python using FastAPI and SQLAlchemy
+- Implemented caching strategies with Redis reducing database load by 45%
+- Built monitoring and alerting systems using Datadog and PagerDuty
+- Designed and maintained PostgreSQL databases with complex migration strategies
+
+Software Engineer
+Tableau Software, Seattle, WA
+June 2016 - August 2018
+- Built backend services in Java for data connector framework
+- Developed REST APIs consumed by frontend and third-party integrations
+- Wrote integration tests and automated deployment scripts using Python and Jenkins
+- Participated in on-call rotation and incident response for production systems
+
+EDUCATION
+
+M.S. in Software Engineering, University of Washington, September 2014 - June 2016
+B.S. in Computer Science, University of Lagos, September 2009 - July 2013
+
+SKILLS
+Python, Java, PostgreSQL, Redis, Docker, Kubernetes, AWS, microservices, REST APIs, FastAPI, Spring Boot, SQL, Git, Linux, CI/CD, Datadog, Terraform, event-driven architecture, system design

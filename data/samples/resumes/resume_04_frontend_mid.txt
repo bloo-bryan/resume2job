@@ -1,0 +1,39 @@
+Priya Sharma
+priya.sharma@email.com | (646) 555-0723 | New York, NY
+LinkedIn: linkedin.com/in/priyasharma | Portfolio: priyasharma.dev
+
+SUMMARY
+Frontend Developer with 4 years of experience building responsive, accessible web applications. Skilled in modern JavaScript frameworks with a focus on performance optimization and user experience. Strong advocate for component-driven design and automated testing.
+
+EXPERIENCE
+
+Frontend Developer
+Bloomberg, New York, NY
+January 2023 - Present
+- Built real-time financial data dashboards using React, TypeScript, and WebSocket APIs
+- Implemented responsive UI components with CSS modules and Tailwind CSS
+- Improved Lighthouse performance scores from 62 to 94 through code splitting and lazy loading
+- Wrote unit and integration tests using Jest and React Testing Library
+
+Frontend Developer
+Squarespace, New York, NY
+May 2021 - December 2022
+- Developed customer-facing web application features using React, Next.js, and TypeScript
+- Built reusable component library using Storybook and styled-components
+- Integrated RESTful APIs and GraphQL endpoints for dynamic content rendering
+- Collaborated with UX designers to implement pixel-perfect designs from Figma mockups
+
+Junior Frontend Developer
+Agency Creative, New York, NY
+June 2020 - April 2021
+- Created responsive marketing websites using HTML, CSS, and JavaScript
+- Built interactive features using React and integrated third-party APIs
+- Optimized website performance and SEO using Next.js static site generation
+- Managed version control and collaborative workflows using Git and GitHub
+
+EDUCATION
+
+B.S. in Computer Science, New York University, September 2016 - May 2020
+
+SKILLS
+JavaScript, TypeScript, React, Next.js, HTML, CSS, Tailwind CSS, GraphQL, REST APIs, Jest, React Testing Library, Storybook, Webpack, Git, GitHub, Figma, responsive design, web accessibility, Node.js

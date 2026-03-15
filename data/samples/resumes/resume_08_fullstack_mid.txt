@@ -1,0 +1,41 @@
+Aisha Johnson
+aisha.johnson@email.com | (512) 555-0638 | Austin, TX
+LinkedIn: linkedin.com/in/aishajohnson | GitHub: github.com/aishaj
+
+SUMMARY
+Fullstack Developer with 5 years of experience building web applications from database to user interface. Comfortable across the entire stack with strong skills in JavaScript, React, and Node.js. Passionate about shipping clean, well-tested code.
+
+EXPERIENCE
+
+Fullstack Developer
+Indeed, Austin, TX
+April 2022 - Present
+- Built and maintained job search features using React, TypeScript, and Node.js
+- Designed and implemented RESTful APIs using Express.js and PostgreSQL
+- Developed real-time notification system using WebSockets and Redis
+- Wrote comprehensive test suites using Jest, Cypress, and React Testing Library
+- Participated in architecture decisions for migrating monolith to microservices
+
+Fullstack Developer
+RetailMeNot, Austin, TX
+September 2020 - March 2022
+- Developed coupon discovery features using React, Next.js, and Node.js
+- Built backend services with Express.js connected to MongoDB and PostgreSQL
+- Implemented user authentication and authorization using JWT and OAuth 2.0
+- Created Docker configurations for local development and staging environments
+- Collaborated with product and design teams in agile sprints
+
+Junior Web Developer
+Accenture, Austin, TX
+June 2019 - August 2020
+- Built internal tools and dashboards using JavaScript, React, and Node.js
+- Developed REST APIs and integrated third-party services
+- Managed application deployments using Docker and basic CI/CD pipelines
+- Wrote unit tests and participated in code reviews
+
+EDUCATION
+
+B.S. in Computer Science, University of Texas at Austin, August 2015 - May 2019
+
+SKILLS
+JavaScript, TypeScript, React, Next.js, Node.js, Express.js, PostgreSQL, MongoDB, Docker, Redis, REST APIs, GraphQL, Jest, Cypress, Git, HTML, CSS, JWT, OAuth, agile, CI/CD

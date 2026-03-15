@@ -1,0 +1,28 @@
+Senior Backend Engineer
+
+Location: Austin, TX (On-site)
+Employment Type: Full-time
+
+About the Company
+Velox Systems provides real-time payment processing infrastructure for fintech companies. Our backend handles thousands of transactions per second with strict reliability and latency requirements. We are seeking a Senior Backend Engineer to help scale our core platform.
+
+Requirements
+- 5+ years of experience in backend software engineering
+- Strong proficiency in Python or Java for building production services
+- Deep experience with PostgreSQL including schema design, query optimization, and migrations
+- Proven ability to design and build REST API endpoints for internal and external consumers
+- Experience designing and operating microservices architectures
+- Hands-on experience with Docker for containerized development and deployment
+- Familiarity with message queues and asynchronous processing patterns
+- Strong understanding of software testing practices including unit, integration, and load testing
+
+Nice to Have
+- Experience with Kubernetes for container orchestration in production
+- Familiarity with AWS services such as ECS, RDS, Lambda, and SQS
+- Experience with Redis for caching and session management
+- Knowledge of event-driven architecture patterns
+
+Education
+- B.S. in Computer Science, Software Engineering, or a related technical field required
+
+Compensation: $160,000 - $210,000 base + equity

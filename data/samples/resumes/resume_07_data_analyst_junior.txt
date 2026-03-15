@@ -1,0 +1,32 @@
+Daniel Torres
+daniel.torres@email.com | (305) 555-0956 | Miami, FL
+LinkedIn: linkedin.com/in/danieltorres
+
+SUMMARY
+Junior Data Analyst with 2 years of experience turning raw data into meaningful business insights. Proficient in SQL, Python, and visualization tools. Detail-oriented problem solver with a strong foundation in economics and statistical analysis.
+
+EXPERIENCE
+
+Data Analyst
+Chewy, Miami, FL
+June 2024 - Present
+- Built interactive dashboards in Tableau and Power BI to track supply chain KPIs for leadership
+- Wrote SQL queries to extract, clean, and analyze data from PostgreSQL and Snowflake databases
+- Automated weekly reporting using Python and pandas, saving 10 hours per week of manual effort
+- Performed ad-hoc analyses to support marketing campaigns and pricing strategy decisions
+
+Junior Data Analyst
+Royal Caribbean Group, Miami, FL
+August 2022 - May 2024
+- Created Excel-based financial models and reports for revenue management team
+- Queried large datasets using SQL to identify trends in booking patterns and customer demographics
+- Built data visualizations using Tableau to communicate findings to non-technical stakeholders
+- Assisted in developing Python scripts for data cleaning and validation tasks
+- Supported A/B testing analysis for website optimization initiatives
+
+EDUCATION
+
+B.A. in Economics, University of Miami, August 2018 - May 2022
+
+SKILLS
+SQL, Python, Excel, Tableau, Power BI, pandas, NumPy, PostgreSQL, Snowflake, data visualization, statistics, Google Sheets, Jupyter, data cleaning, reporting, A/B testing

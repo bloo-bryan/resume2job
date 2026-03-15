@@ -1,0 +1,41 @@
+Lauren Park
+lauren.park@email.com | (720) 555-0193 | Denver, CO
+LinkedIn: linkedin.com/in/laurenpark | GitHub: github.com/lpark
+
+SUMMARY
+Data Engineer with 4 years of experience building reliable data pipelines and analytics infrastructure. Skilled in designing ETL workflows, optimizing data warehouses, and enabling self-service analytics. Focused on data quality, scalability, and operational excellence.
+
+EXPERIENCE
+
+Data Engineer
+Strava, Denver, CO
+March 2023 - Present
+- Designed and maintained ETL pipelines using Apache Spark and Apache Airflow processing 500M+ events daily
+- Built and optimized data models in PostgreSQL and Amazon Redshift for analytics workloads
+- Implemented data quality monitoring using Great Expectations and custom Python validators
+- Migrated batch pipelines to near-real-time streaming using Apache Kafka and Spark Streaming
+- Deployed data infrastructure on AWS using Docker and Terraform
+
+Data Engineer
+Dish Network, Denver, CO
+May 2021 - February 2023
+- Built data ingestion pipelines using Python and Apache Airflow to consolidate data from 20+ sources
+- Designed star schema data models in PostgreSQL for business intelligence reporting
+- Wrote complex SQL transformations and maintained dbt models for the analytics warehouse
+- Created Python scripts for data validation and automated anomaly detection
+- Managed data infrastructure on AWS including S3, Glue, and Redshift
+
+Junior Data Engineer
+Ibotta, Denver, CO
+June 2020 - April 2021
+- Developed Python scripts for data extraction and loading from REST APIs
+- Maintained Apache Airflow DAGs for scheduled data pipeline execution
+- Wrote SQL queries for data analysis and ad-hoc reporting requests
+- Assisted in Docker-based deployment of data services
+
+EDUCATION
+
+B.S. in Computer Engineering, University of Colorado Boulder, August 2016 - May 2020
+
+SKILLS
+Python, SQL, Apache Spark, Apache Airflow, AWS, PostgreSQL, Docker, Terraform, Apache Kafka, Amazon Redshift, dbt, Git, S3, data modeling, ETL, data quality, Linux, Snowflake, Great Expectations

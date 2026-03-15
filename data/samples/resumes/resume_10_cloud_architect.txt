@@ -1,0 +1,42 @@
+Michael Rivera
+michael.rivera@email.com | (703) 555-0847 | Arlington, VA
+LinkedIn: linkedin.com/in/michaelrivera
+
+SUMMARY
+Cloud Architect with 10 years of experience designing enterprise-scale cloud solutions across AWS, Azure, and GCP. Expert in infrastructure as code, security, and cost optimization. Certified across all three major cloud platforms with a deep understanding of hybrid and multi-cloud strategies.
+
+EXPERIENCE
+
+Principal Cloud Architect
+Deloitte, Arlington, VA
+January 2021 - Present
+- Designed multi-cloud architecture for federal government clients across AWS, Azure, and GCP
+- Implemented infrastructure as code using Terraform managing 500+ cloud resources
+- Architected Kubernetes-based container platform on EKS and AKS serving 50+ applications
+- Led cloud security initiatives including IAM policies, network segmentation, and encryption standards
+- Reduced annual cloud spend by $2.4M through right-sizing and reserved instance strategies
+
+Senior Cloud Engineer
+Capital One, McLean, VA
+March 2017 - December 2020
+- Migrated 80+ on-premise applications to AWS using lift-and-shift and re-architecture approaches
+- Built CI/CD pipelines using Jenkins and AWS CodePipeline for automated deployments
+- Designed highly available architectures using AWS ECS, RDS, ElastiCache, and CloudFront
+- Implemented monitoring and alerting using CloudWatch, Datadog, and PagerDuty
+- Developed automation scripts in Python and Java for infrastructure management
+
+Cloud Engineer
+Booz Allen Hamilton, McLean, VA
+February 2014 - February 2017
+- Provisioned and managed AWS infrastructure for defense sector clients
+- Built Docker containers and orchestration workflows for application deployment
+- Automated server configuration using Ansible and Puppet
+- Implemented backup and disaster recovery solutions using AWS S3 and Glacier
+
+EDUCATION
+
+M.S. in Computer Science, George Mason University, September 2011 - May 2013
+B.S. in Computer Engineering, Virginia Tech, August 2007 - May 2011
+
+SKILLS
+AWS, Azure, GCP, Terraform, Kubernetes, Docker, Python, Java, Jenkins, Ansible, CloudFormation, CI/CD, IAM, networking, security, cost optimization, Linux, microservices, serverless, multi-cloud architecture

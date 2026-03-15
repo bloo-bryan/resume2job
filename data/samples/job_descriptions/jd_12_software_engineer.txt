@@ -1,0 +1,27 @@
+Software Engineer
+
+Location: Atlanta, GA (Hybrid)
+Employment Type: Full-time
+
+About the Company
+Brightpath Technologies builds internal tools for logistics companies to track shipments, manage routes, and forecast demand. Our engineering team is small and collaborative, and every engineer has a direct impact on the product. We are looking for a Software Engineer to join our backend-focused team.
+
+Requirements
+- 2+ years of experience in professional software engineering
+- Proficiency in Python or Java for building backend applications
+- Experience with Git for version control, branching, and code review workflows
+- Ability to design and consume REST API endpoints following standard conventions
+- Strong SQL skills for querying relational databases and writing efficient joins
+- Understanding of data structures, algorithms, and software design principles
+- Willingness to participate in code reviews, on-call rotations, and technical planning
+
+Nice to Have
+- Experience with Docker for local development and deployment
+- Familiarity with cloud platforms such as AWS, GCP, or Azure
+- Experience with testing frameworks and writing automated unit and integration tests
+- Knowledge of CI/CD practices and pipeline configuration
+
+Education
+- B.S. in Computer Science or a related technical field required
+
+Compensation: $95,000 - $135,000 base + bonus

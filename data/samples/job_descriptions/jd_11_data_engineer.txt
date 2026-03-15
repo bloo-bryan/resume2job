@@ -1,0 +1,28 @@
+Data Engineer
+
+Location: Los Angeles, CA (Hybrid)
+Employment Type: Full-time
+
+About the Company
+Streamline Data builds analytics infrastructure for e-commerce companies. Our data platform ingests event streams from dozens of sources, transforms them through reliable pipelines, and serves clean datasets to analytics and ML teams. We are hiring a Data Engineer to build and maintain our core data infrastructure.
+
+Requirements
+- 3+ years of experience in data engineering or a related backend role
+- Strong proficiency in Python for building data pipelines, scripts, and integrations
+- Advanced SQL skills for data transformation, aggregation, and quality validation
+- Hands-on experience with Spark or Airflow for orchestrating and processing large-scale data workflows
+- Experience with AWS data services such as S3, Redshift, Glue, or EMR
+- Understanding of data pipeline design patterns including batch and streaming architectures
+- Familiarity with data modeling techniques for analytical workloads
+- Experience with version control and collaborative development workflows
+
+Nice to Have
+- Experience with Kafka for real-time event streaming
+- Familiarity with dbt for analytics engineering and transformation layers
+- Experience with Docker for containerizing pipeline components
+- Knowledge of data governance and cataloging tools
+
+Education
+- B.S. in Computer Science, Data Science, Information Systems, or a related field required
+
+Compensation: $130,000 - $175,000 base + equity

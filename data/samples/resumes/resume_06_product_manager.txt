@@ -1,0 +1,42 @@
+Sarah Mitchell
+sarah.mitchell@email.com | (617) 555-0281 | Boston, MA
+LinkedIn: linkedin.com/in/sarahmitchell
+
+SUMMARY
+Product Manager with 5 years of experience leading cross-functional teams to deliver data-driven products. Strong background in agile methodologies, user research, and go-to-market strategy. Adept at translating business objectives into actionable product roadmaps.
+
+EXPERIENCE
+
+Senior Product Manager
+HubSpot, Boston, MA
+October 2022 - Present
+- Led product strategy for marketing analytics platform serving 15,000+ customers
+- Managed agile development process using scrum methodology with 2-week sprints in Jira
+- Defined product requirements and prioritized backlog based on user research and data analysis
+- Analyzed product metrics and user behavior using SQL and Amplitude to inform feature decisions
+- Coordinated cross-functional teams of 12 engineers, 3 designers, and 2 data analysts
+
+Product Manager
+Wayfair, Boston, MA
+March 2020 - September 2022
+- Owned product roadmap for search and discovery features on e-commerce platform
+- Ran A/B tests and analyzed results using SQL and internal analytics tools
+- Conducted user interviews and usability studies to validate product hypotheses
+- Collaborated with engineering teams using agile and scrum practices in Jira
+- Increased conversion rate by 18% through data-driven feature optimization
+
+Associate Product Manager
+Toast, Boston, MA
+January 2019 - February 2020
+- Supported senior PMs in defining requirements and writing user stories
+- Conducted competitive analysis and market research for restaurant technology vertical
+- Built dashboards using Tableau and SQL to track product KPIs
+- Facilitated sprint planning and retrospective meetings for engineering team
+
+EDUCATION
+
+MBA, Harvard Business School, August 2016 - May 2018
+B.A. in Psychology, Boston University, September 2012 - May 2016
+
+SKILLS
+agile, scrum, Jira, SQL, data analysis, Amplitude, Tableau, A/B testing, user research, product strategy, roadmap planning, stakeholder management, Excel, Google Analytics, Figma, cross-functional leadership

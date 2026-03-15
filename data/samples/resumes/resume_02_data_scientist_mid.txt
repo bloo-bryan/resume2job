@@ -1,0 +1,31 @@
+Marcus Chen
+marcus.chen@email.com | (312) 555-0847 | Chicago, IL
+LinkedIn: linkedin.com/in/marcuschen
+
+SUMMARY
+Data Scientist with 4 years of experience applying statistical modeling and machine learning to solve business problems. Strong foundation in experimental design, A/B testing, and data visualization. Passionate about translating complex analyses into actionable insights.
+
+EXPERIENCE
+
+Data Scientist
+Spotify, Chicago, IL
+August 2022 - Present
+- Developed predictive models for user engagement using Python, scikit-learn, and XGBoost, increasing retention by 8%
+- Designed and analyzed A/B tests for product features using R and Bayesian statistical methods
+- Built automated reporting pipelines using SQL and pandas to track key business metrics
+- Collaborated with product managers to define KPIs and create dashboards in Tableau
+
+Junior Data Scientist
+Allstate Insurance, Chicago, IL
+July 2020 - July 2022
+- Built classification models for claims fraud detection using Python, scikit-learn, and logistic regression
+- Performed exploratory data analysis on large datasets using pandas, NumPy, and matplotlib
+- Wrote complex SQL queries to extract and transform data from enterprise data warehouses
+- Created statistical reports using R and communicated findings to non-technical stakeholders
+
+EDUCATION
+
+B.S. in Statistics, University of Illinois at Urbana-Champaign, August 2016 - May 2020
+
+SKILLS
+Python, R, SQL, pandas, NumPy, scikit-learn, XGBoost, matplotlib, seaborn, Tableau, statistics, A/B testing, machine learning, logistic regression, Bayesian methods, data visualization, Jupyter, Git, Excel

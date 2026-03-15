@@ -1,0 +1,28 @@
+Frontend Developer
+
+Location: Seattle, WA (Hybrid)
+Employment Type: Full-time
+
+About the Company
+ClearUI is a design-driven SaaS company building project management tools for creative agencies. Our product is used by over 10,000 teams worldwide. We are looking for a Frontend Developer to help build polished, performant user interfaces.
+
+Requirements
+- 3+ years of experience in frontend web development
+- Strong proficiency in JavaScript and modern ES6+ features
+- Experience with TypeScript in production applications
+- Deep hands-on experience with React including hooks, context, and component architecture
+- Solid understanding of HTML semantics and accessibility best practices
+- Advanced CSS skills including responsive design, Flexbox, and Grid
+- Experience with state management libraries and client-side routing
+- Familiarity with RESTful API integration and asynchronous data fetching
+
+Nice to Have
+- Experience with Next.js for server-side rendering and static site generation
+- Familiarity with GraphQL and client libraries such as Apollo
+- Experience with testing frameworks such as Jest, React Testing Library, or Cypress
+- Knowledge of design systems and component libraries
+
+Education
+- B.S. in Computer Science, Information Systems, or a related field required
+
+Compensation: $110,000 - $155,000 base + bonus

@@ -1,0 +1,28 @@
+Product Manager
+
+Location: Chicago, IL (Hybrid)
+Employment Type: Full-time
+
+About the Company
+LoopFeed is a B2B SaaS company building customer feedback analytics tools. Our platform helps product teams collect, categorize, and prioritize user feedback at scale. We are looking for a Product Manager to own the roadmap for our core analytics product.
+
+Requirements
+- 4+ years of experience in product management at a technology company
+- Strong experience with agile methodologies including sprint planning, backlog grooming, and retrospectives
+- Proven ability in stakeholder management across engineering, design, sales, and executive teams
+- Experience with data analysis to inform product decisions and measure outcomes
+- Track record of shipping features from concept through launch
+- Excellent written and verbal communication skills
+- Experience creating product specifications, user stories, and wireframes
+
+Nice to Have
+- Proficiency in SQL for ad-hoc data exploration and reporting
+- Experience designing and analyzing A/B testing experiments
+- Technical background such as a prior engineering role or computer science coursework
+- Familiarity with product analytics tools such as Amplitude or Mixpanel
+
+Education
+- Bachelor's degree in Business, Computer Science, or a related field required
+- MBA preferred
+
+Compensation: $130,000 - $175,000 base + bonus

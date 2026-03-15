@@ -1,0 +1,34 @@
+Dr. Wei Zhang
+wei.zhang@email.com | (734) 555-0512 | Ann Arbor, MI
+LinkedIn: linkedin.com/in/weizhang | Google Scholar: scholar.google.com/weizhang
+
+SUMMARY
+NLP Researcher with 4 years of industry experience and a Ph.D. in Computational Linguistics. Specialized in transformer architectures, information extraction, and text generation. Published 8 peer-reviewed papers in top-tier NLP conferences. Passionate about bridging the gap between research and production systems.
+
+EXPERIENCE
+
+NLP Research Scientist
+Google DeepMind, Mountain View, CA
+September 2022 - Present
+- Developed novel attention mechanisms for long-document understanding using PyTorch
+- Fine-tuned large language models using Hugging Face Transformers for domain-specific tasks
+- Built evaluation frameworks for NLP model benchmarking using Python and custom metrics
+- Published 3 papers at ACL and EMNLP on efficient transformer architectures
+- Mentored 2 research interns on projects involving named entity recognition and relation extraction
+
+Research Engineer
+Allen Institute for AI, Seattle, WA
+August 2020 - August 2022
+- Implemented and evaluated deep learning models for question answering using PyTorch and AllenNLP
+- Developed data annotation pipelines and quality assurance tools using Python and Flask
+- Built scalable training infrastructure using Docker and AWS for distributed model training
+- Contributed to open-source NLP libraries including Hugging Face Transformers and spaCy
+- Co-authored 4 papers on information extraction and knowledge graph construction
+
+EDUCATION
+
+Ph.D. in Computational Linguistics, University of Michigan, September 2015 - August 2020
+B.S. in Computer Science, Zhejiang University, September 2011 - June 2015
+
+SKILLS
+Python, PyTorch, Hugging Face Transformers, NLP, deep learning, machine learning, spaCy, NLTK, TensorFlow, Docker, AWS, Git, transformer architectures, attention mechanisms, named entity recognition, text classification, information extraction, Linux, Flask

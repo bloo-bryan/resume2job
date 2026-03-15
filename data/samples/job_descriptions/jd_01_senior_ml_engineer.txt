@@ -1,0 +1,29 @@
+Senior Machine Learning Engineer
+
+Location: San Francisco, CA (Hybrid)
+Employment Type: Full-time
+
+About the Company
+Apex AI Labs is a Series C startup building intelligent automation tools for enterprise customers. Our platform processes millions of data points daily using state-of-the-art machine learning models. We are looking for a Senior ML Engineer to design and deploy production ML systems at scale.
+
+Requirements
+- 5+ years of experience in machine learning engineering or a related role
+- Strong proficiency in Python
+- Hands-on experience with PyTorch and TensorFlow for model development and training
+- Deep understanding of machine learning algorithms and deep learning architectures
+- Experience writing complex SQL queries for data extraction and analysis
+- Track record of deploying models to production environments
+- Strong communication skills and ability to work cross-functionally with product and engineering teams
+- Experience with experiment tracking tools such as MLflow or Weights & Biases
+
+Nice to Have
+- Experience with NLP tasks such as text classification, named entity recognition, or summarization
+- Background in computer vision applications
+- Familiarity with Kubernetes for model serving and orchestration
+- Publications or open-source contributions in ML/AI
+
+Education
+- M.S. in Computer Science, Machine Learning, Statistics, or a related quantitative field required
+- Ph.D. preferred but not required
+
+Compensation: $180,000 - $240,000 base + equity
