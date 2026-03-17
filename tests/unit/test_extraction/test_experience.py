@@ -1,7 +1,5 @@
 from datetime import date
 
-import pytest
-
 from resume2job.extraction.experience import (
     _parse_date,
     _years_between,
@@ -73,11 +71,7 @@ class TestYearsBetween:
 
 class TestExtractExperience:
     def test_finds_date_ranges(self) -> None:
-        text = (
-            "Software Engineer\n"
-            "Jan 2018 - Dec 2020\n"
-            "- Did stuff\n"
-        )
+        text = "Software Engineer\nJan 2018 - Dec 2020\n- Did stuff\n"
         result = extract_experience(text)
         assert len(result.positions) == 1
         assert result.total_years > 0
@@ -102,10 +96,7 @@ class TestExtractExperience:
         assert result.positions == []
 
     def test_title_heuristic(self) -> None:
-        text = (
-            "Machine Learning Engineer\n"
-            "March 2021 - Present\n"
-        )
+        text = "Machine Learning Engineer\nMarch 2021 - Present\n"
         result = extract_experience(text)
         assert len(result.positions) == 1
         assert "Machine Learning Engineer" in result.positions[0].title

@@ -1,4 +1,3 @@
-import pytest
 from spacy.language import Language
 
 from resume2job.extraction.skills import classify_jd_skills, extract_skills
@@ -35,34 +34,17 @@ class TestExtractSkills:
 
 class TestClassifyJdSkills:
     def test_splits_required_preferred(self, nlp_pipeline: Language) -> None:
-        text = (
-            "Requirements:\n"
-            "- Python\n"
-            "- SQL\n"
-            "\nNice to Have:\n"
-            "- Kubernetes\n"
-        )
+        text = "Requirements:\n- Python\n- SQL\n\nNice to Have:\n- Kubernetes\n"
         required, preferred = classify_jd_skills(text, nlp_pipeline)
         assert len(required) > 0 or len(preferred) > 0
 
     def test_no_preferred_section(self, nlp_pipeline: Language) -> None:
-        text = (
-            "Requirements:\n"
-            "- Python\n"
-            "- SQL\n"
-        )
+        text = "Requirements:\n- Python\n- SQL\n"
         required, preferred = classify_jd_skills(text, nlp_pipeline)
         assert preferred == []
 
     def test_no_overlap(self, nlp_pipeline: Language) -> None:
-        text = (
-            "Requirements:\n"
-            "- Python\n"
-            "- SQL\n"
-            "\nNice to Have:\n"
-            "- Python\n"
-            "- Kubernetes\n"
-        )
+        text = "Requirements:\n- Python\n- SQL\n\nNice to Have:\n- Python\n- Kubernetes\n"
         required, preferred = classify_jd_skills(text, nlp_pipeline)
         overlap = set(required) & set(preferred)
         assert len(overlap) == 0

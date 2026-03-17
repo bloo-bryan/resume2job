@@ -4,18 +4,30 @@ from datetime import date
 from resume2job.models import ExperienceInfo, Position
 
 MONTH_MAP: dict[str, int] = {
-    "jan": 1, "january": 1,
-    "feb": 2, "february": 2,
-    "mar": 3, "march": 3,
-    "apr": 4, "april": 4,
+    "jan": 1,
+    "january": 1,
+    "feb": 2,
+    "february": 2,
+    "mar": 3,
+    "march": 3,
+    "apr": 4,
+    "april": 4,
     "may": 5,
-    "jun": 6, "june": 6,
-    "jul": 7, "july": 7,
-    "aug": 8, "august": 8,
-    "sep": 9, "sept": 9, "september": 9,
-    "oct": 10, "october": 10,
-    "nov": 11, "november": 11,
-    "dec": 12, "december": 12,
+    "jun": 6,
+    "june": 6,
+    "jul": 7,
+    "july": 7,
+    "aug": 8,
+    "august": 8,
+    "sep": 9,
+    "sept": 9,
+    "september": 9,
+    "oct": 10,
+    "october": 10,
+    "nov": 11,
+    "november": 11,
+    "dec": 12,
+    "december": 12,
 }
 
 # Matches date ranges like:
@@ -24,11 +36,11 @@ MONTH_MAP: dict[str, int] = {
 #   "Jan 2020 – Present" (en-dash)
 DATE_RANGE_PATTERN = re.compile(
     r"(?P<start>"
-    r"(?:[A-Za-z]+\.?\s+)?\d{4}"      # "Jan 2020" or "January 2020" or "2020"
+    r"(?:[A-Za-z]+\.?\s+)?\d{4}"  # "Jan 2020" or "January 2020" or "2020"
     r"|"
-    r"\d{1,2}/\d{4}"                   # "01/2020"
+    r"\d{1,2}/\d{4}"  # "01/2020"
     r")"
-    r"\s*[-–]\s*"                       # dash or en-dash separator
+    r"\s*[-–]\s*"  # dash or en-dash separator
     r"(?P<end>"
     r"(?:[A-Za-z]+\.?\s+)?\d{4}"
     r"|"

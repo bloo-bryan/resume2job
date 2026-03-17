@@ -4,7 +4,9 @@ import pytest
 
 from resume2job.parser.docx_parser import extract_text_from_docx
 
-FIXTURES_DIR = Path(__file__).resolve().parent.parent.parent.parent / "data" / "samples" / "fixtures"
+FIXTURES_DIR = (
+    Path(__file__).resolve().parent.parent.parent.parent / "data" / "samples" / "fixtures"
+)
 SAMPLE_DOCX = FIXTURES_DIR / "sample_resume.docx"
 
 

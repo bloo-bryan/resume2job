@@ -1,4 +1,3 @@
-import pytest
 from spacy.language import Language
 
 from resume2job.extraction.education import (
@@ -48,10 +47,7 @@ class TestExtractEducation:
         assert "Computer Science" in ms_entries[0].field
 
     def test_deduplication(self, nlp_pipeline: Language) -> None:
-        text = (
-            "M.S. in Computer Science from Stanford University\n"
-            "M.S. in Data Science from MIT\n"
-        )
+        text = "M.S. in Computer Science from Stanford University\nM.S. in Data Science from MIT\n"
         entries = extract_education(text, nlp_pipeline)
         ms_count = sum(1 for e in entries if e.degree == "M.S.")
         assert ms_count == 1

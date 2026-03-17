@@ -11,9 +11,7 @@ from resume2job.models import (
 )
 
 
-def extract_resume_entities(
-    cleaned_text: str, nlp: Language | None = None
-) -> ResumeEntities:
+def extract_resume_entities(cleaned_text: str, nlp: Language | None = None) -> ResumeEntities:
     if nlp is None:
         nlp = build_nlp_pipeline()
 
@@ -28,9 +26,7 @@ def extract_resume_entities(
     )
 
 
-def extract_jd_entities(
-    cleaned_text: str, nlp: Language | None = None
-) -> JobDescriptionEntities:
+def extract_jd_entities(cleaned_text: str, nlp: Language | None = None) -> JobDescriptionEntities:
     if nlp is None:
         nlp = build_nlp_pipeline()
 

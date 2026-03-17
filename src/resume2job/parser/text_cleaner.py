@@ -1,7 +1,6 @@
 import re
 import unicodedata
 
-
 _BULLET_CHARS = re.compile(r"[•▪►◦▸●○■◆]")
 _SPACES_TABS = re.compile(r"[ \t]+")
 _EXCESS_NEWLINES = re.compile(r"\n{3,}")

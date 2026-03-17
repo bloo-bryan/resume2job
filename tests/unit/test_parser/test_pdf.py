@@ -4,7 +4,9 @@ import pytest
 
 from resume2job.parser.pdf import extract_text_from_pdf
 
-FIXTURES_DIR = Path(__file__).resolve().parent.parent.parent.parent / "data" / "samples" / "fixtures"
+FIXTURES_DIR = (
+    Path(__file__).resolve().parent.parent.parent.parent / "data" / "samples" / "fixtures"
+)
 SAMPLE_PDF = FIXTURES_DIR / "sample_resume.pdf"
 
 

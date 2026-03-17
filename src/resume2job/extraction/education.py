@@ -9,7 +9,13 @@ DEGREE_PATTERNS: list[tuple[re.Pattern, str]] = [
     (re.compile(r"\bDoctor(?:ate)?\s+of\b", re.IGNORECASE), "Ph.D."),
     (re.compile(r"\bMBA\b"), "MBA"),
     (re.compile(r"\bM\.?S\.?\b(?:\s+in\b)?", re.IGNORECASE), "M.S."),
-    (re.compile(r"\bMaster(?:'?s)?\s+(?:of\s+)?(?:Science|Arts|Engineering|Business)\b", re.IGNORECASE), "M.S."),
+    (
+        re.compile(
+            r"\bMaster(?:'?s)?\s+(?:of\s+)?(?:Science|Arts|Engineering|Business)\b",
+            re.IGNORECASE,
+        ),
+        "M.S.",
+    ),
     (re.compile(r"\bMaster(?:'?s)?\s+(?:degree|of)\b", re.IGNORECASE), "M.S."),
     (re.compile(r"\bM\.?A\.?\b(?:\s+in\b)?", re.IGNORECASE), "M.S."),
     (re.compile(r"\bB\.?S\.?\b(?:\s+in\b)?", re.IGNORECASE), "B.S."),
@@ -37,9 +43,6 @@ FIELD_PATTERN = re.compile(
 
 
 def extract_education(text: str, nlp: Language) -> list[EducationEntry]:
-    doc = nlp(text)
-    org_entities = [ent.text for ent in doc.ents if ent.label_ == "ORG"]
-
     entries: list[EducationEntry] = []
     seen_degrees: set[str] = set()
 
