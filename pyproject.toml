@@ -13,6 +13,7 @@ dependencies = [
     "sentence-transformers>=3.0",
     "scikit-learn>=1.6",
     "qdrant-client>=1.13",
+    "python-multipart>=0.0.9",
     "ruff>=0.15.6",
 ]
 
@@ -42,3 +43,4 @@ select = ["E", "F", "I", "UP", "B", "SIM"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
+asyncio_mode = "auto"

@@ -1,0 +1,48 @@
+{
+  "pairs": [
+    {"jd_file": "job_descriptions/jd_01_senior_ml_engineer.txt", "resume_file": "resumes/resume_01_ml_engineer_senior.txt", "relevance": 3},
+    {"jd_file": "job_descriptions/jd_01_senior_ml_engineer.txt", "resume_file": "resumes/resume_09_nlp_researcher.txt", "relevance": 2},
+    {"jd_file": "job_descriptions/jd_01_senior_ml_engineer.txt", "resume_file": "resumes/resume_02_data_scientist_mid.txt", "relevance": 1},
+    {"jd_file": "job_descriptions/jd_01_senior_ml_engineer.txt", "resume_file": "resumes/resume_06_product_manager.txt", "relevance": 0},
+
+    {"jd_file": "job_descriptions/jd_02_data_scientist.txt", "resume_file": "resumes/resume_02_data_scientist_mid.txt", "relevance": 3},
+    {"jd_file": "job_descriptions/jd_02_data_scientist.txt", "resume_file": "resumes/resume_07_data_analyst_junior.txt", "relevance": 2},
+    {"jd_file": "job_descriptions/jd_02_data_scientist.txt", "resume_file": "resumes/resume_04_frontend_mid.txt", "relevance": 0},
+
+    {"jd_file": "job_descriptions/jd_03_backend_engineer.txt", "resume_file": "resumes/resume_03_backend_senior.txt", "relevance": 3},
+    {"jd_file": "job_descriptions/jd_03_backend_engineer.txt", "resume_file": "resumes/resume_12_software_engineer_mid.txt", "relevance": 2},
+    {"jd_file": "job_descriptions/jd_03_backend_engineer.txt", "resume_file": "resumes/resume_08_fullstack_mid.txt", "relevance": 2},
+
+    {"jd_file": "job_descriptions/jd_04_frontend_developer.txt", "resume_file": "resumes/resume_04_frontend_mid.txt", "relevance": 3},
+    {"jd_file": "job_descriptions/jd_04_frontend_developer.txt", "resume_file": "resumes/resume_08_fullstack_mid.txt", "relevance": 2},
+
+    {"jd_file": "job_descriptions/jd_05_devops_engineer.txt", "resume_file": "resumes/resume_05_devops_senior.txt", "relevance": 3},
+    {"jd_file": "job_descriptions/jd_05_devops_engineer.txt", "resume_file": "resumes/resume_10_cloud_architect.txt", "relevance": 2},
+    {"jd_file": "job_descriptions/jd_05_devops_engineer.txt", "resume_file": "resumes/resume_04_frontend_mid.txt", "relevance": 0},
+
+    {"jd_file": "job_descriptions/jd_06_product_manager.txt", "resume_file": "resumes/resume_06_product_manager.txt", "relevance": 3},
+    {"jd_file": "job_descriptions/jd_06_product_manager.txt", "resume_file": "resumes/resume_03_backend_senior.txt", "relevance": 0},
+
+    {"jd_file": "job_descriptions/jd_07_data_analyst.txt", "resume_file": "resumes/resume_07_data_analyst_junior.txt", "relevance": 3},
+    {"jd_file": "job_descriptions/jd_07_data_analyst.txt", "resume_file": "resumes/resume_02_data_scientist_mid.txt", "relevance": 2},
+    {"jd_file": "job_descriptions/jd_07_data_analyst.txt", "resume_file": "resumes/resume_11_data_engineer_mid.txt", "relevance": 1},
+
+    {"jd_file": "job_descriptions/jd_08_fullstack_developer.txt", "resume_file": "resumes/resume_08_fullstack_mid.txt", "relevance": 3},
+    {"jd_file": "job_descriptions/jd_08_fullstack_developer.txt", "resume_file": "resumes/resume_04_frontend_mid.txt", "relevance": 2},
+    {"jd_file": "job_descriptions/jd_08_fullstack_developer.txt", "resume_file": "resumes/resume_03_backend_senior.txt", "relevance": 2},
+
+    {"jd_file": "job_descriptions/jd_09_nlp_engineer.txt", "resume_file": "resumes/resume_09_nlp_researcher.txt", "relevance": 3},
+    {"jd_file": "job_descriptions/jd_09_nlp_engineer.txt", "resume_file": "resumes/resume_01_ml_engineer_senior.txt", "relevance": 2},
+    {"jd_file": "job_descriptions/jd_09_nlp_engineer.txt", "resume_file": "resumes/resume_07_data_analyst_junior.txt", "relevance": 0},
+
+    {"jd_file": "job_descriptions/jd_10_cloud_architect.txt", "resume_file": "resumes/resume_10_cloud_architect.txt", "relevance": 3},
+    {"jd_file": "job_descriptions/jd_10_cloud_architect.txt", "resume_file": "resumes/resume_05_devops_senior.txt", "relevance": 2},
+    {"jd_file": "job_descriptions/jd_10_cloud_architect.txt", "resume_file": "resumes/resume_06_product_manager.txt", "relevance": 0},
+
+    {"jd_file": "job_descriptions/jd_11_data_engineer.txt", "resume_file": "resumes/resume_11_data_engineer_mid.txt", "relevance": 3},
+    {"jd_file": "job_descriptions/jd_11_data_engineer.txt", "resume_file": "resumes/resume_02_data_scientist_mid.txt", "relevance": 1},
+    {"jd_file": "job_descriptions/jd_11_data_engineer.txt", "resume_file": "resumes/resume_04_frontend_mid.txt", "relevance": 0},
+
+    {"jd_file": "job_descriptions/jd_12_software_engineer.txt", "resume_file": "resumes/resume_12_software_engineer_mid.txt", "relevance": 3}
+  ]
+}
