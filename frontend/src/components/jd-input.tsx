@@ -1,0 +1,25 @@
+import { Textarea } from "@/components/ui/textarea";
+
+interface JdInputProps {
+  value: string;
+  onChange: (value: string) => void;
+  disabled?: boolean;
+}
+
+export function JdInput({ value, onChange, disabled }: JdInputProps) {
+  return (
+    <div className="space-y-3">
+      <label className="text-sm font-medium text-zinc-300">
+        Job Description
+      </label>
+      <Textarea
+        placeholder="Paste job description text..."
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        rows={12}
+        disabled={disabled}
+        className="resize-none bg-zinc-900 border-zinc-800 text-zinc-100 placeholder:text-zinc-600"
+      />
+    </div>
+  );
+}

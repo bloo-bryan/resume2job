@@ -14,3 +14,11 @@ models/
 .claude/
 CLAUDE.md
 PRD.md
+.agents/
+TODOS.md
+DESIGN.md
+.gstack/
+
+# Next.js / Node
+frontend/node_modules/
+frontend/.next/
