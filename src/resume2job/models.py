@@ -36,6 +36,7 @@ class JobDescriptionEntities(BaseModel):
 class ParseResult(BaseModel):
     raw_text: str
     cleaned_text: str
+    doc_type: str
     entities: ResumeEntities | JobDescriptionEntities
 
 

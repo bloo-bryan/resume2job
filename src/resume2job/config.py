@@ -22,8 +22,8 @@ class Settings(BaseSettings):
     qdrant_collection: str = "resumes"
 
     # Composite ranker weights (PRD F6) — must sum to 1.0
-    weight_required_skills: float = 0.30
-    weight_semantic: float = 0.40
+    weight_required_skills: float = 0.40
+    weight_semantic: float = 0.30
     weight_experience: float = 0.15
     weight_education: float = 0.10
     weight_preferred_skills: float = 0.05

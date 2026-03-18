@@ -58,5 +58,6 @@ def parse_and_extract(
     return ParseResult(
         raw_text=raw_text,
         cleaned_text=cleaned_text,
+        doc_type=doc_type,
         entities=entities,
     )

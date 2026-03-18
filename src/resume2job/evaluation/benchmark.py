@@ -1,6 +1,8 @@
+import argparse
+import json
 import logging
 from collections import defaultdict
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 
 from resume2job.evaluation.dataset import load_test_set, load_texts
 from resume2job.evaluation.metrics import mrr, ndcg_at_k, precision_at_k
@@ -90,9 +92,19 @@ def run_benchmark() -> BenchmarkResult:
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Run resume2job evaluation benchmark")
+    parser.add_argument(
+        "--json", action="store_true", dest="json_output", help="Output results as JSON"
+    )
+    args = parser.parse_args()
+
     logging.basicConfig(level=logging.INFO)
-    print("Running benchmark...")
+    print("Running benchmark...", file=__import__("sys").stderr)
     result = run_benchmark()
+
+    if args.json_output:
+        print(json.dumps(asdict(result), indent=2))
+        raise SystemExit(0)
 
     print(f"\nTest set size: {result.test_set_size} pairs\n")
     print(f"{'Algorithm':<12} {'NDCG@5':>8} {'MRR':>8} {'P@3':>8}")
