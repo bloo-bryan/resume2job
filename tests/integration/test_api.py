@@ -42,6 +42,20 @@ class TestParseEndpoint:
         data = response.json()
         assert "raw_text" in data
         assert "entities" in data
+        assert data["doc_type"] == "resume"
+
+    async def test_parse_jd_text(self, client: AsyncClient) -> None:
+        response = await client.post(
+            "/api/parse",
+            data={
+                "doc_type": "job_description",
+                "text": "Looking for Senior ML Engineer with Python, PyTorch. 3+ years.",
+            },
+        )
+        assert response.status_code == 200
+        data = response.json()
+        assert data["doc_type"] == "job_description"
+        assert "entities" in data
 
     async def test_parse_missing_both_text_and_file(self, client: AsyncClient) -> None:
         response = await client.post("/api/parse", data={"doc_type": "resume"})

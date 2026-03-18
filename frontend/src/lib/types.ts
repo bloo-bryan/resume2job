@@ -32,12 +32,9 @@ export interface JobDescriptionEntities {
   required_education: string | null;
 }
 
-export interface ParseResult {
-  raw_text: string;
-  cleaned_text: string;
-  doc_type: "resume" | "job_description";
-  entities: ResumeEntities | JobDescriptionEntities;
-}
+export type ParseResult =
+  | { raw_text: string; cleaned_text: string; doc_type: "resume"; entities: ResumeEntities }
+  | { raw_text: string; cleaned_text: string; doc_type: "job_description"; entities: JobDescriptionEntities };
 
 export interface SkillsBreakdown {
   score: number;

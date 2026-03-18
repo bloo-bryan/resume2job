@@ -14,6 +14,7 @@ interface ResumeInputProps {
 export function ResumeInput({ onTextChange, text, disabled }: ResumeInputProps) {
   const [file, setFile] = useState<File | null>(null);
   const [parsing, setParsing] = useState(false);
+  const [parseError, setParseError] = useState<string | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
   async function handleFile(e: React.ChangeEvent<HTMLInputElement>) {
@@ -21,11 +22,13 @@ export function ResumeInput({ onTextChange, text, disabled }: ResumeInputProps) 
     if (!selected) return;
     setFile(selected);
     setParsing(true);
+    setParseError(null);
     try {
       const result = await parseFile(selected, "resume");
-      onTextChange(result.raw_text);
-    } catch {
+      onTextChange(result.cleaned_text);
+    } catch (err) {
       onTextChange("");
+      setParseError(err instanceof Error ? err.message : "Failed to parse file");
     } finally {
       setParsing(false);
     }
@@ -68,6 +71,10 @@ export function ResumeInput({ onTextChange, text, disabled }: ResumeInputProps) 
           className="hidden"
         />
       </div>
+
+      {parseError && (
+        <p className="text-sm text-red-500">{parseError}</p>
+      )}
 
       <Textarea
         placeholder="Or paste resume text..."

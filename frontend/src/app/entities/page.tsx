@@ -7,7 +7,6 @@ import { Button } from "@/components/ui/button";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { parseDocument } from "@/lib/api";
 import type {
-  ParseResult,
   ResumeEntities,
   JobDescriptionEntities,
 } from "@/lib/types";
@@ -15,8 +14,8 @@ import type {
 export default function EntitiesPage() {
   const [resumeText, setResumeText] = useState("");
   const [jdText, setJdText] = useState("");
-  const [resumeResult, setResumeResult] = useState<ParseResult | null>(null);
-  const [jdResult, setJdResult] = useState<ParseResult | null>(null);
+  const [resumeEntities, setResumeEntities] = useState<ResumeEntities | null>(null);
+  const [jdEntities, setJdEntities] = useState<JobDescriptionEntities | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -25,26 +24,36 @@ export default function EntitiesPage() {
   async function handleSubmit() {
     setLoading(true);
     setError(null);
-    setResumeResult(null);
-    setJdResult(null);
-    try {
-      const promises: Promise<void>[] = [];
-      if (resumeText.trim()) {
-        promises.push(
-          parseDocument(resumeText, "resume").then((r) => setResumeResult(r))
-        );
-      }
-      if (jdText.trim()) {
-        promises.push(
-          parseDocument(jdText, "job_description").then((r) => setJdResult(r))
-        );
-      }
-      await Promise.all(promises);
-    } catch (err) {
-      setError(err instanceof Error ? err.message : "An error occurred");
-    } finally {
-      setLoading(false);
+    setResumeEntities(null);
+    setJdEntities(null);
+
+    const promises: Promise<PromiseSettledResult<void>>[] = [];
+
+    const resumePromise = resumeText.trim()
+      ? parseDocument(resumeText, "resume").then((r) => {
+          if (r.doc_type === "resume") setResumeEntities(r.entities);
+        })
+      : null;
+
+    const jdPromise = jdText.trim()
+      ? parseDocument(jdText, "job_description").then((r) => {
+          if (r.doc_type === "job_description") setJdEntities(r.entities);
+        })
+      : null;
+
+    const settled = await Promise.allSettled(
+      [resumePromise, jdPromise].filter(Boolean) as Promise<void>[]
+    );
+
+    const failures = settled
+      .filter((r): r is PromiseRejectedResult => r.status === "rejected")
+      .map((r) => (r.reason instanceof Error ? r.reason.message : "An error occurred"));
+
+    if (failures.length > 0) {
+      setError(failures.join("; "));
     }
+
+    setLoading(false);
   }
 
   return (
@@ -75,22 +84,18 @@ export default function EntitiesPage() {
         </Alert>
       )}
 
-      {(resumeResult || jdResult) && (
+      {(resumeEntities || jdEntities) && (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {resumeResult && resumeResult.doc_type === "resume" && (
-            <ResumeEntitiesPanel
-              entities={resumeResult.entities as ResumeEntities}
-            />
+          {resumeEntities && (
+            <ResumeEntitiesPanel entities={resumeEntities} />
           )}
-          {jdResult && jdResult.doc_type === "job_description" && (
-            <JdEntitiesPanel
-              entities={jdResult.entities as JobDescriptionEntities}
-            />
+          {jdEntities && (
+            <JdEntitiesPanel entities={jdEntities} />
           )}
         </div>
       )}
 
-      {!resumeResult && !jdResult && !error && !loading && (
+      {!resumeEntities && !jdEntities && !error && !loading && (
         <p className="text-sm text-zinc-500 text-center py-8">
           Provide a resume or job description to extract entities
         </p>
