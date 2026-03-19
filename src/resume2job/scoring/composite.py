@@ -1,3 +1,5 @@
+import logging
+
 from resume2job.config import get_settings
 from resume2job.models import (
     JobDescriptionEntities,
@@ -8,6 +10,8 @@ from resume2job.models import (
 from resume2job.scoring.embedding import score_embedding
 from resume2job.scoring.structured import score_structured
 from resume2job.scoring.tfidf import score_tfidf
+
+logger = logging.getLogger(__name__)
 
 
 def _generate_summary(score: float, breakdown: MatchBreakdown) -> str:
@@ -94,13 +98,19 @@ def score_hybrid(
     resume_entities: ResumeEntities,
     jd_entities: JobDescriptionEntities,
 ) -> MatchResult:
-    settings = get_settings()
-    tfidf_sim = score_tfidf(resume_text, jd_text)
-    emb_sim = score_embedding(resume_text, jd_text)
-    semantic_score = (
-        settings.hybrid_tfidf_weight * tfidf_sim + settings.hybrid_embedding_weight * emb_sim
-    )
-    return _compute_match(semantic_score, resume_entities, jd_entities)
+    try:
+        settings = get_settings()
+        tfidf_sim = score_tfidf(resume_text, jd_text)
+        emb_sim = score_embedding(resume_text, jd_text)
+        semantic_score = (
+            settings.hybrid_tfidf_weight * tfidf_sim + settings.hybrid_embedding_weight * emb_sim
+        )
+        return _compute_match(semantic_score, resume_entities, jd_entities)
+    except RuntimeError:
+        raise
+    except Exception as exc:
+        logger.error("Hybrid scoring failed: %s", exc)
+        raise RuntimeError(f"Hybrid scoring failed: {exc}") from exc
 
 
 def score_tfidf_only(
@@ -109,7 +119,13 @@ def score_tfidf_only(
     resume_entities: ResumeEntities,
     jd_entities: JobDescriptionEntities,
 ) -> MatchResult:
-    return _compute_match(score_tfidf(resume_text, jd_text), resume_entities, jd_entities)
+    try:
+        return _compute_match(score_tfidf(resume_text, jd_text), resume_entities, jd_entities)
+    except RuntimeError:
+        raise
+    except Exception as exc:
+        logger.error("TF-IDF scoring failed: %s", exc)
+        raise RuntimeError(f"TF-IDF scoring failed: {exc}") from exc
 
 
 def score_embedding_only(
@@ -118,4 +134,10 @@ def score_embedding_only(
     resume_entities: ResumeEntities,
     jd_entities: JobDescriptionEntities,
 ) -> MatchResult:
-    return _compute_match(score_embedding(resume_text, jd_text), resume_entities, jd_entities)
+    try:
+        return _compute_match(score_embedding(resume_text, jd_text), resume_entities, jd_entities)
+    except RuntimeError:
+        raise
+    except Exception as exc:
+        logger.error("Embedding scoring failed: %s", exc)
+        raise RuntimeError(f"Embedding scoring failed: {exc}") from exc

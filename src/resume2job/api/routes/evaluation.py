@@ -1,14 +1,29 @@
-from fastapi import APIRouter
+import logging
+
+from fastapi import APIRouter, HTTPException
 
 from resume2job.api.schemas import AlgorithmMetricsResponse, EvaluationResponse
 from resume2job.evaluation import run_benchmark
 
+logger = logging.getLogger(__name__)
 router = APIRouter()
 
 
 @router.get("/api/evaluation", response_model=EvaluationResponse)
 def evaluation_endpoint() -> EvaluationResponse:
-    result = run_benchmark()
+    try:
+        result = run_benchmark()
+    except FileNotFoundError as exc:
+        logger.error("Evaluation test set not found: %s", exc)
+        raise HTTPException(
+            status_code=503,
+            detail="Evaluation test set not found (labels.json missing)",
+        ) from exc
+    except RuntimeError as exc:
+        logger.error("Evaluation benchmark failed: %s", exc)
+        raise HTTPException(
+            status_code=500, detail=str(exc)
+        ) from exc
     metrics = {}
     for algo_name in ("tfidf", "embedding", "hybrid"):
         algo_metrics = getattr(result, algo_name)

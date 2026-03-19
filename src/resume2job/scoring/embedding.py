@@ -13,10 +13,17 @@ logger = logging.getLogger(__name__)
 def _load_model() -> SentenceTransformer:
     settings = get_settings()
     logger.info("Loading sentence-transformer model: %s", settings.sentence_transformer_model)
-    return SentenceTransformer(
-        settings.sentence_transformer_model,
-        cache_folder=str(settings.model_cache_dir),
-    )
+    try:
+        return SentenceTransformer(
+            settings.sentence_transformer_model,
+            cache_folder=str(settings.model_cache_dir),
+        )
+    except (OSError, ConnectionError) as exc:
+        model = settings.sentence_transformer_model
+        logger.error("Failed to load model '%s': %s", model, exc)
+        raise RuntimeError(
+            f"Failed to load sentence-transformer model '{model}': {exc}"
+        ) from exc
 
 
 def score_embedding(resume_text: str, jd_text: str) -> float:

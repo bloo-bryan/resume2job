@@ -33,7 +33,14 @@ def _load_skill_patterns(skills_path: Path) -> list[dict]:
 @lru_cache(maxsize=1)
 def build_nlp_pipeline() -> Language:
     settings = get_settings()
-    nlp = spacy.load(settings.spacy_model)
+    try:
+        nlp = spacy.load(settings.spacy_model)
+    except OSError as exc:
+        logger.error("spaCy model '%s' not found", settings.spacy_model)
+        raise RuntimeError(
+            f"spaCy model '{settings.spacy_model}' not found. "
+            f"Run: python -m spacy download {settings.spacy_model}"
+        ) from exc
 
     skills_path = settings.skills_csv_path
     if skills_path.exists():
