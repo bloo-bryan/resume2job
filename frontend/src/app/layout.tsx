@@ -28,8 +28,14 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased bg-[#09090B] text-zinc-100`}
       >
+        <a href="#main-content" className="skip-nav">
+          Skip to main content
+        </a>
         <NavBar />
-        <main className="max-w-[1200px] mx-auto px-4 pt-20 pb-12">
+        <main
+          id="main-content"
+          className="max-w-[1200px] mx-auto px-4 pt-20 pb-12"
+        >
           {children}
         </main>
       </body>
